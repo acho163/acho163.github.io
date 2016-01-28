@@ -1,0 +1,23 @@
+body {
+    background-color: #3edbe9;
+    font-size: 56px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+}
+p{
+    font-size: 24px;
+    color: green;
+}
+#first {
+    color:yellow;
+}
+/*to use selective; classes*/
+.special {
+    color:orange;
+    background-color:black;
+}
+/*to change the color of anchor tags*/
+a {
+    color: orange;
+}
