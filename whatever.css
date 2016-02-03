@@ -1,21 +1,29 @@
 body {
-    background-color: #3edbe9;
-    font-size: 56px;
+    background-color: white;
+    font-size: 38px;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: white;
 }
 p{
     font-size: 24px;
-    color: green;
+    color: orange;
+}
+#header{
+    background-color: orange;
 }
 #first {
-    color:yellow;
+    color:black;
+    font-size:13px;
+}
+li {
+    color:orange;
 }
 /*to use selective; classes*/
 .special {
     color:orange;
-    background-color:black;
+    background-color:white;
+    font-size: 13px;
 }
 /*to change the color of anchor tags*/
 a {
