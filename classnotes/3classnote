@@ -1,0 +1,78 @@
+folder ../ (refer to folder b4)
+            / (refer to root folder)
+
+jquery - library of javascripts
+
+document object model = dom tree; left part of inspector
+right part of inspecotr=css; order of most specific to least (declared = crossed out)
+
+viewport = actual body area on the web page.
+
+"Box Model"
+
+
+Block level = 100% wide (automatically selected)
+in CSS you can choose width, padding (padding-top/right..)
+        (*padding is including the width of the element.)
+border-size, color, type (example - border-bottom: 10px solid red;)
+margin (does not include background color) 
+        *can have sides of box declared (for padding, margin..) 
+        example-> margin: 20px 100px 50px 60px; (clockwise from the top)
+        *SHORT CUT-to declare 2 values instead of four
+        example-> margin:20px 100px; (20px top and bottom, 100px left and right)
+     typically declare either ALL 4 values or 2 values OR 1 value at a time..
+auto margin = centers (divides space remmaining by 2) 
+example-> margin:20px auto;  *auto margin works with left and right margin; 
+wrapper (blank/general div that wraps around your page) 's common margin = 0px auto
+
+how to make column layouts
+1. "In-line block" 
+automatic given decisions on web such as italicizing for <em> are called "inline"
+display: inline-block; 
+certain properties are not applicable for inline elements (does not push other away; if "display:block;" then it interpretates all)
+</div> <div> ->no space; first space (enter) counts and not others.
+- indents would not be legible...
+
+So,
+ 
+go to .wrapper (div) and put font-size:0
+and then go to .column(div inside "div") and put font-size: 24px (any size you want)
+So @ wrapper, there is no space between letters so they are horizontal
+vertical-align: top; - > brings text to start at the same position.
+height: 200px (text would run if longer.. if there was no height declaration then the page would be as high as the type would)
+overlow:hidden; would chop off text that runs longer
+*overflow: auto would have scrolling element.
+
+overflow-y:auto;
+overflow-x:hidden;
+would be very common (INTERNAL SCROLL WITH ONLY ONE SCROLL not vertical and horizontal)
+overflow:scroll; (even @ no running types there would be scroll)
+
+"caniuse.com" search "hyphenation" shows what works where (working in green). 
+
+2. Float Property
+.column{
+float:left;
+}
+Then they are all aligned (top) and side by side;
+however the WRAPPER won't have height anymore.
+*create div class=clear
+*clear:both @ css and the clear div is invisible giving height (resume)
+    clear:left (would work if float is left)
+    if you do clear: right and float as left, the order of floating reverses.
+JUST CLEAR BOTH
+
+padding around column is the spacing between columns (width could be adjusted).
+
+quick short notes
+inline-block = give auto height depending on type; sits at baseline
+float =align top and side to side 
+
+
+jsbin.com
+flexbox; another way of laying out pages.
+
+hwk: continue to work on class home page sheet ; 
+start on catalogue, in class syllabus-- think about what to catalogue;
+can be anything ... doesn't have to be shown; representative..
+different types of users..
