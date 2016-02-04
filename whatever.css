@@ -6,7 +6,7 @@ body {
     color: white;
 }
 p{
-    font-size: 24px;
+    font-size: 25px;
     color: orange;
 }
 #header{
@@ -16,8 +16,10 @@ p{
     color:black;
     font-size:13px;
 }
-li {
+ol {
     color:orange;
+    font-size:25px;
+    text-align:center;
 }
 /*to use selective; classes*/
 .special {
