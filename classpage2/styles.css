@@ -1,0 +1,21 @@
+ .sidebar-sticky{
+     background-color:blue;
+     color:white;
+}
+.email-address{
+    color:white;
+}
+.sidebar {
+    text-align:center;
+    min-width:48em
+    font-family:Helvetica,Arial,Sans-serif;
+}
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color:white;
+}
+a{
+    color:white;
+}
